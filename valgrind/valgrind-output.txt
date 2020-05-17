@@ -1,0 +1,144 @@
+scc23@csil-cpu6:~/sfuhome/cmpt473/googletest/googletest/build$ ctest -T memcheck
+   Site: csil-cpu6
+   Build name: Linux-c++
+Create new tag: 20190404-1829 - Experimental
+Memory check project /home/scc23/Documents/cmpt473/asn4/googletest/googletest/build
+      Start  1: googletest-death-test-test
+ 1/41 MemCheck  #1: googletest-death-test-test .............***Failed   13.25 sec
+      Start  2: gtest_environment_test
+ 2/41 MemCheck  #2: gtest_environment_test .................   Passed    1.39 sec
+      Start  3: googletest-filepath-test
+ 3/41 MemCheck  #3: googletest-filepath-test ...............   Passed    1.80 sec
+      Start  4: googletest-listener-test
+ 4/41 MemCheck  #4: googletest-listener-test ...............   Passed    1.38 sec
+      Start  5: gtest_main_unittest
+ 5/41 MemCheck  #5: gtest_main_unittest ....................   Passed    1.29 sec
+      Start  6: googletest-message-test
+ 6/41 MemCheck  #6: googletest-message-test ................   Passed    1.45 sec
+      Start  7: gtest_no_test_unittest
+ 7/41 MemCheck  #7: gtest_no_test_unittest .................   Passed    1.18 sec
+      Start  8: googletest-options-test
+ 8/41 MemCheck  #8: googletest-options-test ................   Passed    1.40 sec
+      Start  9: googletest-param-test-test
+ 9/41 MemCheck  #9: googletest-param-test-test .............   Passed    4.64 sec
+      Start 10: googletest-port-test
+10/41 MemCheck #10: googletest-port-test ...................   Passed    4.72 sec
+      Start 11: gtest_pred_impl_unittest
+11/41 MemCheck #11: gtest_pred_impl_unittest ...............   Passed    2.74 sec
+      Start 12: gtest_premature_exit_test
+12/41 MemCheck #12: gtest_premature_exit_test ..............   Passed    1.26 sec
+      Start 13: googletest-printers-test
+13/41 MemCheck #13: googletest-printers-test ...............   Passed    2.82 sec
+      Start 14: gtest_prod_test
+14/41 MemCheck #14: gtest_prod_test ........................   Passed    1.31 sec
+      Start 15: gtest_repeat_test
+15/41 MemCheck #15: gtest_repeat_test ......................   Passed    3.10 sec
+      Start 16: gtest_sole_header_test
+16/41 MemCheck #16: gtest_sole_header_test .................   Passed    1.36 sec
+      Start 17: gtest_stress_test
+17/41 MemCheck #17: gtest_stress_test ......................   Passed   10.75 sec
+      Start 18: googletest-test-part-test
+18/41 MemCheck #18: googletest-test-part-test ..............   Passed    1.80 sec
+      Start 19: gtest_throw_on_failure_ex_test
+19/41 MemCheck #19: gtest_throw_on_failure_ex_test .........   Passed    1.19 sec
+      Start 20: gtest-typed-test_test
+20/41 MemCheck #20: gtest-typed-test_test ..................   Passed    2.86 sec
+      Start 21: gtest_unittest
+21/41 MemCheck #21: gtest_unittest .........................   Passed   12.17 sec
+      Start 22: gtest-unittest-api_test
+22/41 MemCheck #22: gtest-unittest-api_test ................   Passed    1.57 sec
+      Start 23: gtest_skip_test
+23/41 MemCheck #23: gtest_skip_test ........................   Passed    1.36 sec
+      Start 24: gtest-death-test_ex_nocatch_test
+24/41 MemCheck #24: gtest-death-test_ex_nocatch_test .......   Passed    1.99 sec
+      Start 25: gtest-death-test_ex_catch_test
+25/41 MemCheck #25: gtest-death-test_ex_catch_test .........   Passed    1.87 sec
+      Start 26: gtest_no_rtti_unittest
+26/41 MemCheck #26: gtest_no_rtti_unittest .................   Passed   12.22 sec
+      Start 27: googletest-break-on-failure-unittest
+27/41 MemCheck #27: googletest-break-on-failure-unittest ...   Passed    4.86 sec
+      Start 28: googletest-catch-exceptions-test
+28/41 MemCheck #28: googletest-catch-exceptions-test .......   Passed    4.04 sec
+      Start 29: googletest-color-test
+29/41 MemCheck #29: googletest-color-test ..................   Passed    4.97 sec
+      Start 30: googletest-env-var-test
+30/41 MemCheck #30: googletest-env-var-test ................   Passed    6.18 sec
+      Start 31: googletest-filter-unittest
+31/41 MemCheck #31: googletest-filter-unittest .............   Passed   21.23 sec
+      Start 32: gtest_help_test
+32/41 MemCheck #32: gtest_help_test ........................   Passed    7.59 sec
+      Start 33: googletest-list-tests-unittest
+33/41 MemCheck #33: googletest-list-tests-unittest .........   Passed    6.79 sec
+      Start 34: googletest-output-test
+34/41 MemCheck #34: googletest-output-test .................   Passed    7.73 sec
+      Start 35: googletest-shuffle-test
+35/41 MemCheck #35: googletest-shuffle-test ................   Passed    4.64 sec
+      Start 36: googletest-throw-on-failure-test
+36/41 MemCheck #36: googletest-throw-on-failure-test .......   Passed    4.21 sec
+      Start 37: googletest-uninitialized-test
+37/41 MemCheck #37: googletest-uninitialized-test ..........   Passed    3.89 sec
+      Start 38: gtest_xml_outfiles_test
+38/41 MemCheck #38: gtest_xml_outfiles_test ................   Passed    4.92 sec
+      Start 39: googletest-json-outfiles-test
+39/41 MemCheck #39: googletest-json-outfiles-test ..........   Passed    4.37 sec
+      Start 40: gtest_xml_output_unittest
+40/41 MemCheck #40: gtest_xml_output_unittest ..............   Passed    5.72 sec
+      Start 41: googletest-json-output-unittest
+41/41 MemCheck #41: googletest-json-output-unittest ........   Passed    4.67 sec
+
+98% tests passed, 1 tests failed out of 41
+
+Total Test time (real) = 190.06 sec
+
+The following tests FAILED:
+	  1 - googletest-death-test-test (Failed)
+-- Processing memory checking output:
+1/41 MemCheck: #1: googletest-death-test-test .............   Defects: 49358
+2/41 MemCheck: #2: gtest_environment_test .................   Defects: 1
+3/41 MemCheck: #3: googletest-filepath-test ...............   Defects: 1
+4/41 MemCheck: #4: googletest-listener-test ...............   Defects: 1
+5/41 MemCheck: #5: gtest_main_unittest ....................   Defects: 1
+6/41 MemCheck: #6: googletest-message-test ................   Defects: 1
+7/41 MemCheck: #7: gtest_no_test_unittest .................   Defects: 1
+8/41 MemCheck: #8: googletest-options-test ................   Defects: 1
+9/41 MemCheck: #9: googletest-param-test-test .............   Defects: 608
+10/41 MemCheck: #10: googletest-port-test ...................   Defects: 1220
+11/41 MemCheck: #11: gtest_pred_impl_unittest ...............   Defects: 1
+12/41 MemCheck: #12: gtest_premature_exit_test ..............   Defects: 1
+13/41 MemCheck: #13: googletest-printers-test ...............   Defects: 1
+14/41 MemCheck: #14: gtest_prod_test ........................   Defects: 1
+15/41 MemCheck: #15: gtest_repeat_test ......................   Defects: 2424
+16/41 MemCheck: #16: gtest_sole_header_test .................   Defects: 1
+17/41 MemCheck: #17: gtest_stress_test ......................   Defects: 1
+18/41 MemCheck: #18: googletest-test-part-test ..............   Defects: 320
+19/41 MemCheck: #19: gtest_throw_on_failure_ex_test .........   Defects: 1
+20/41 MemCheck: #20: gtest-typed-test_test ..................   Defects: 2091
+21/41 MemCheck: #21: gtest_unittest .........................   Defects: 26558
+22/41 MemCheck: #22: gtest-unittest-api_test ................   Defects: 1
+23/41 MemCheck: #23: gtest_skip_test ........................   Defects: 1
+24/41 MemCheck: #24: gtest-death-test_ex_nocatch_test .......   Defects: 293
+25/41 MemCheck: #25: gtest-death-test_ex_catch_test .........   Defects: 293
+26/41 MemCheck: #26: gtest_no_rtti_unittest .................   Defects: 26558
+27/41 MemCheck: #27: googletest-break-on-failure-unittest ...   Defects: 530
+28/41 MemCheck: #28: googletest-catch-exceptions-test .......   Defects: 538
+29/41 MemCheck: #29: googletest-color-test ..................   Defects: 525
+30/41 MemCheck: #30: googletest-env-var-test ................   Defects: 528
+31/41 MemCheck: #31: googletest-filter-unittest .............   Defects: 568
+32/41 MemCheck: #32: gtest_help_test ........................   Defects: 531
+33/41 MemCheck: #33: googletest-list-tests-unittest .........   Defects: 534
+34/41 MemCheck: #34: googletest-output-test .................   Defects: 560
+35/41 MemCheck: #35: googletest-shuffle-test ................   Defects: 545
+36/41 MemCheck: #36: googletest-throw-on-failure-test .......   Defects: 534
+37/41 MemCheck: #37: googletest-uninitialized-test ..........   Defects: 523
+38/41 MemCheck: #38: gtest_xml_outfiles_test ................   Defects: 594
+39/41 MemCheck: #39: googletest-json-outfiles-test ..........   Defects: 579
+40/41 MemCheck: #40: gtest_xml_output_unittest ..............   Defects: 611
+41/41 MemCheck: #41: googletest-json-output-unittest ........   Defects: 589
+MemCheck log files can be found here: ( * corresponds to test number)
+/home/scc23/Documents/cmpt473/asn4/googletest/googletest/build/Testing/Temporary/MemoryChecker.*.log
+Memory checking results:
+IPW - 21
+Potential Memory Leak - 116724
+Uninitialized Memory Conditional - 121
+Uninitialized Memory Read - 1162
+        Errors while running CTest
